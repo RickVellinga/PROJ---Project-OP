@@ -1,0 +1,269 @@
+  body{
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+header{
+  background: #171717;
+  position: absolute;
+  width: 100%;
+}
+
+#backgroundimg{
+  width: 1520px;
+  height: 752px;
+  background-repeat: no-repeat;
+
+}
+
+
+
+header::after{
+  content: '';
+  display: table;
+  clear: both;
+  position: fixed;
+  position: absolute;
+}
+
+
+.logo {
+  float: left;
+  width: 8%;
+  margin-bottom: 10px;
+
+}
+
+nav{
+  float: right;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li{
+display: inline-block;
+margin-left: 70px;
+padding-top: 25px;
+position: relative;
+}
+
+nav a{
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav a::before{
+  content: '';
+  display: block;
+  height: 4px;
+  width: 100%;
+  background-color: #E1007A;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+  width: 100%;
+}
+nav a:hover{
+  color: #E1007A;
+}
+
+#Opleiding{
+  color: #E1007A;
+  display: inline;
+  font-size: 55px;
+
+}
+
+#kleur{
+  color: #171717;
+  font-size: 55px;
+  display: inline;
+  margin-left: -5px;
+
+}
+
+
+.weinig {
+  width: 260px;
+}
+
+
+
+section {
+  background-color: #E1007A;
+  float: left;
+  text-align: center;
+  border-radius: 15px;
+  margin: 20px;
+  padding: 30px;
+  color: #FFFF;
+  box-sizing: border-box;
+}
+
+#redders {
+  padding-bottom: 88.5px
+}
+
+#graven {
+  padding-bottom: 90px
+}
+
+#tijd {
+  padding-bottom: 52px
+}
+
+.fotoop{
+      width: 250px;
+      height: 380px;
+      float: right;
+      position: relative;
+      top: -50px;
+      margin-right: 40px;
+}
+.section {
+
+   position: absolute;
+   left: 24%;
+   margin-left: -50px;
+   margin-top: -50px;
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 15px 55px;
+  font-size: 22px;
+  text-decoration: none;
+
+
+  background-color: #E1007A;
+  color: #171717;
+  position: relative;
+  display: inline-block;
+}
+
+.green {
+
+  background-color: #E1007A;
+  color: #171717;
+  padding: 5px;
+  box-shadow: 3px 5px 5px #888888;
+  border-radius: 5px;
+  transition: all 1s ease;
+  transform: scale(1);
+}
+
+.green:hover {
+  background-color: #E1007A;
+  color: #171717;
+/*  Making button bigger on hover  */
+  transform: scale(1.5) perspective(1px)
+}
+
+.btn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+hr {
+  width: 45%;
+  border-color: #E1007A;
+}
+
+.lijn{
+  width: 100%;
+}
+
+h4, h3{
+  display: inline;
+}
+.schrijfjein{
+
+display: inline;
+}
+.schrijfjein1{
+
+display: inline;
+}
+.kopopleiding1{
+ color: #E1007A;
+ font-size: 35px;
+ display: inline;
+ margin-left: 25px;
+}
+
+.kopopleiding2{
+  color: #171717;
+  font-size: 35px;
+  display: inline;
+  margin-left: -5px;
+}
+
+.schrijfjein{
+ color: #E1007A;
+ font-size: 35px;
+ display: inline;
+}
+
+.schrijfjein1{
+  color: #171717;
+  font-size: 35px;
+  display: inline;
+  margin-left: -5px;
+}
+
+.opleiding{
+  color: #171717;
+  font-size: 16px;
+  margin-left: 25px;
+}
+
+.kopopleiding3{
+ color: #E1007A;
+ font-size: 35px;
+ display: inline;
+ margin-left: 1028px;
+ text-align: right;
+}
+
+.kopopleiding4{
+  color: #171717;
+  font-size: 35px;
+  display: inline;
+
+}
+
+.school{
+  color: #171717;
+  font-size: 16px;
+  margin-right: 40px;
+   text-align: right;
+}
+
+.fotosch{
+      width: 285px;
+      height: 350px;
+      float: left;
+      position: relative;
+      top: -50px;
+      margin-left: 40px;
+}
+.video{
+  width: 65%;
+  height: 550px;
+}
